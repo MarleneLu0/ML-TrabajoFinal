@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./estilos/login.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenido-inicio container">
+            <a href="index.html"><img src="./assets/LOGO_MOONLIGHT.svg" alt=""></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html"> Inicio</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+                    <li><a href="sucursales.html">Sucursales</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="login.html" class="btn-1">Iniciar Sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section>
+        <h2>Iniciar Sesion</h2>
+        <form id="loginform">
+            <label>Mail</label>
+            <input type="email" placeholder="Introduzca su email" id="email" required autofocus>
+            <label>Contraseña</label>
+            <input type="password" placeholder="Introduzca su contraseña" id="password" required>
+            <div><input type="submit" value="Ingresar"></div>
+        </form>
+        <p>No tienes una cuenta? <a href="registro.html">Crear Cuenta</a></p>
+    </section>
+    <script src="js/login.js"></script>
+</body>
+</html>
