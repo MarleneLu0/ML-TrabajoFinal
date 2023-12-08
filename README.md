@@ -1,4 +1,4 @@
-# Tarea Grupal Grupo 6 
+# Proyecto Final =D
 ## Introducción
 Este es un proyecto final realizado para el curso de Front End <br>
 del Silicon Misiones. Con la finalidad de practicar los conocimientos <br>
