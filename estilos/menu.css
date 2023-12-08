@@ -47,7 +47,8 @@ body{
     padding: 20px;
     display: block;
     font-weight: 600;
-    color: #fdfaeb
+    color: #fdfaeb;
+    text-decoration: none;
 }
 
 .contenido-inicio .navbar ul li button {
@@ -86,7 +87,75 @@ body{
 
 
 
+cookie-content{
+    text-align: center;;
+}
+.cookie-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #292c33;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.txt-p{
+    font-size: 16px;
+    color: #3b3f49;
+    padding: 0 250px;
+    margin-bottom: 40px;
+}
 
+.cookie-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.cookie-1 img{
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    align-items: center;
+    margin-left: 0;
+}
+.cookie-1{
+    padding: 0 25px;
+    color: #3b3f49;
+    margin: 120px;
+}
+
+.cookie-2 img{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-bottom: 50px;
+    align-items: center;
+    margin-right: 120px;
+}
+.cookie-2{
+    padding: 0 25px;
+    color: #3b3f49;
+    margin-left: 120px;
+}
+
+.cookie img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #f7a29e;
+    color: #fdf7dd;
+    border-radius: 50px;
+}
+.cookie{
+    padding: 100px;
+    position: relative;
+}
 
 
 
@@ -94,13 +163,14 @@ body{
 
 h5{
     color: #fdfaeb;
-    background-color: #f7a29e;
+    background-image: url(fondo\ cookies.svg);
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 5px;
-    font-size: 50px;
+    font-family: "Poppins";
+    font-size: 30px;
     font-weight: 600;
 }
 

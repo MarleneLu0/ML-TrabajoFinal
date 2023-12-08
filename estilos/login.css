@@ -43,7 +43,8 @@ body{
     padding: 20px;
     display: block;
     font-weight: 600;
-    color: #fdfaeb
+    color: #fdfaeb;
+    text-decoration: none;
 }
 
 .contenido-inicio .navbar ul li button {

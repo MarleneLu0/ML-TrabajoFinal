@@ -17,3 +17,56 @@ body{
     color: #c25353;
     background-color: #fb9892;
 }
+
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.482),
+        rgba(0, 0, 0, 0.164)),
+        url(MUCHAS_COOKIES.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+.contenido-inicio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenido-inicio .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.contenido-inicio .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 20px;
+    display: block;
+    font-weight: 600;
+    color: #fdfaeb;
+    text-decoration: none;
+}
+
+.contenido-inicio .navbar ul li button {
+    background-color: #f7a29e;
+    border-radius: 60px;
+    border-color: #f7a29e;
+    padding-right: 20px;
+}
+#contenido-inicio {
+    display: none;
+}
+
+#contedorTarjetas{
+    display: flex;
+    flex-wrap: wrap;
+}
